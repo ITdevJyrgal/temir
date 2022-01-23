@@ -1,0 +1,12 @@
+.about {
+  background: #23272A;
+  width: 100%;
+  padding: 20px 0;
+  &-general {
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
