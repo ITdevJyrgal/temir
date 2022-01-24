@@ -59,7 +59,7 @@
     left: -178px;
   }
   .header-general-title2 {
-    width: 385px;
+    width: 100%;
     font-size: 20px;
   }
   .header-general-iphone {
@@ -85,12 +85,14 @@
 
 @media (max-width: 375px) {
   .header-general-square {
-    width: 90%;
-    left: -104%;
+    left: -222px;
   }
   .header-general-title2 {
     width: 100%;
     font-size: 20px;
+  }
+  .header-general-item1 {
+    font-size: 13px;
   }
 }
 

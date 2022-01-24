@@ -1,0 +1,159 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+  .slick-prev {
+    margin: 16% 28%;
+  }
+  .hero-general-img2 {
+    width: 45%;
+  }
+  .slick-next {
+    right: 28.6%;
+    top: 176px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .slick-next {
+    top: 146px;
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  .slick-next {
+    top: 111px;
+  }
+  .hero-general-dhs {
+    font-size: 15px;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  .hero-general-img2 {
+    width: 71%;
+    margin: 0 -62px;
+  }
+  .about-general-img {
+    width: 232px;
+  }
+  .slick-next {
+    top: 118px;
+    right: 73px;
+  }
+  .slick-prev {
+    margin: 23% 16%;
+  }
+}
+
+@media (max-width: 415px) {
+  .hero-general-img {
+    margin-left: 31%;
+  }
+  .slick-prev {
+    margin: 23% 16%;
+  }
+  .slick-next {
+    top: 88px;
+    right: 58px;
+  }
+  .hero-general-gen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 376px) {
+  .hero-general-gen {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18px;
+    justify-content: center;
+  }
+  .slick-next {
+    top: 79px;
+    right: 60px;
+  }
+  .hero-general-block {
+    width: 273px;
+    height: 33px;
+    margin: 20px 22px;
+  }
+
+  .hero-general-total {
+    font-size: 11px;
+    padding: 8px 17px;
+  }
+
+  .hero-general-gen2 {
+    margin-left: -3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-general-input {
+    width: 203.63px;
+    margin-left: 46%;
+    height: 33px;
+    font-size: 12px;
+  }
+  .hero-general-you {
+    font-size: 19px;
+  }
+
+  .hero-general-card {
+    width: 217px;
+    height: 32px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .slick-prev {
+    margin: 23% 17%;
+  }
+  .hero-general-img2 {
+    width: 71%;
+    margin: 0 -48px;
+  }
+
+  .slick-next {
+    top: 66px;
+    right: 46px;
+  }
+  .hero-general-block {
+    width: 273px;
+    height: 33px;
+    margin: 20px 22px;
+  }
+
+  .hero-general-total {
+    font-size: 10px;
+    padding: 8px 17px;
+  }
+
+  .hero-general-input {
+    width: 194.63px;
+    height: 33px;
+    margin-left: 84px;
+    font-size: 12px;
+  }
+  .hero-general-you {
+    font-size: 19px;
+  }
+
+  .hero-general-card {
+    width: 217px;
+    height: 32px;
+    font-size: 12px;
+  }
+  .hero-general-gen2 {
+    margin-left: -3px;
+    display: flex;
+    flex-direction: column;
+  }
+}

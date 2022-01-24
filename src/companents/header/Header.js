@@ -1,8 +1,8 @@
 import React from 'react';
 import rec from "./../../assets/img/rec.svg"
 import Date from "./date";
-import ReactPlayer from 'react-player/lazy'
 import {Link} from "react-router-dom";
+import "./../../styles/header/media-header.scss"
 
 const Header = () => {
     return (

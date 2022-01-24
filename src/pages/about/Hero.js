@@ -29,13 +29,13 @@ export default function SimpleSlider() {
                     <div className="hero-general">
                         <Slider {...settings}>
                             <div className="hero-general-img">
-                                <img src={temir} alt="img"/>
+                                <img src={temir} alt="img" className="hero-general-img2" />
                             </div>
                             <div className="hero-general-img">
-                                <img src={temir} alt="img"/>
+                                <img src={temir} alt="img" className="hero-general-img2" />
                             </div>
                             <div className="hero-general-img">
-                                <img src={temir} alt="img"/>
+                                <img src={temir} alt="img" className="hero-general-img2" />
                             </div>
                         </Slider>
                         <div>
