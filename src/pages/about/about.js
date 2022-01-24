@@ -8,8 +8,6 @@ const About = () => {
 
     return (
         <div>
-
-
             <div className="about">
                 <div className="container">
                     <div className="about-general">

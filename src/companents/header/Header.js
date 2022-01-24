@@ -11,13 +11,13 @@ const Header = () => {
                 <div className="header-general">
 
                     <div style={{position: "relative"}}>
-                     <Link to="/about">   <h1 className="header-general-title">Frequently Asked Questions</h1></Link>
+                        <Link to="/about"><h1 className="header-general-title">Frequently Asked Questions</h1></Link>
                         <img src={rec} alt="img" className="header-general-gen"/>
                     </div>
                     <div className="header-general-square"/>
                 </div>
-                <div className="header-general-general">
-                    <div>
+                <div className="row position-relative">
+                    <div className=" col-xxl-6 col-xl-12 col-lg-12 ">
                         <h1 className="header-general-title2">What phones are compatible?</h1>
                         <p className="header-general-item1">TEMIR works with all modern smartphones </p>
                         <p className="header-general-item2">TAP funcion is compatible with NFC
@@ -27,7 +27,13 @@ const Header = () => {
                             <li className="header-general-iphone"> Android</li>
                         </ul>
                     </div>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=QYh6mYIJG2Y' />
+                    <div className=" col-xxl-6 col-xl-12 col-lg-12 ">
+                        <div className="header-general-video">
+                            <div className="header-general-video">
+                                <ReactPlayer url='https://www.youtube.com/watch?v=jJPMnTXl63E' className="header-general-video"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 {
                     Date.map(el => {

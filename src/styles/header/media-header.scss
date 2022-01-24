@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+  .header-general-square {
+    left: 194px;
+  }
+  .header-general-gen {
+    padding-left: 18.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-general-gen {
+    padding-left: 15.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-general-square {
+    left: 158px;
+  }
+  .header-general-gen {
+    padding-left: 2.5%;
+  }
+  .header-general-square {
+    left: 0;
+  }
+  iframe {
+    border: 0;
+    width: 80%;
+    height: 360px;
+  }
+  .header-general-gen {
+    margin-left: -18.5%;
+  }
+
+}
+
