@@ -3,7 +3,7 @@
     width: 80%;
   }
   .header-general-square {
-    left: 194px;
+    left: 20%;
   }
   .header-general-gen {
     padding-left: 18.5%;
@@ -32,8 +32,97 @@
     height: 360px;
   }
   .header-general-gen {
-    margin-left: -18.5%;
+    margin-left: 0.5%;
   }
 
+}
+
+@media (max-width: 576px) {
+  .header-general-gen {
+    width: 90%;
+    margin-left: -4.5%;
+  }
+
+  .header-general-title {
+    font-size: 28px;
+  }
+  .header-general-square {
+    left: -22px;
+  }
+}
+
+@media (max-width: 415px) {
+  .header-general-title {
+    font-size: 26px;
+  }
+  .header-general-square {
+    left: -178px;
+  }
+  .header-general-title2 {
+    width: 385px;
+    font-size: 20px;
+  }
+  .header-general-iphone {
+    font-size: 15px;
+  }
+  .header-general-how {
+    font-size: 20px;
+  }
+  .header-general-how2 {
+    font-size: 15px;
+  }
+  .header-general-how3 {
+    font-size: 15px;
+  }
+  .header-general-gen {
+    width: 100%;
+    margin-left: -4.5%;
+  }
+  .header-general-square {
+    left: -187px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-general-square {
+    width: 90%;
+    left: -104%;
+  }
+  .header-general-title2 {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-general-title {
+    font-size: 23px;
+  }
+  .header-general-title2 {
+    width: 100%;
+    font-size: 17px;
+  }
+  .header-general-item1 {
+    width: 100%;
+    font-size: 12px;
+  }
+  .header-general-iphone {
+    font-size: 13px;
+  }
+  .header-general-item2 {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .header-general-how {
+    font-size: 17px;
+  }
+
+  .header-general-how2 {
+    font-size: 13px;
+  }
+  .header-general-how3 {
+    font-size: 13px;
+  }
 }
 
