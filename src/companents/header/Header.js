@@ -30,7 +30,8 @@ const Header = () => {
                     <div className=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
                         <div className="header-general-video">
 
-                            <iframe className="header-general-video" width="500" height="315" src="https://www.youtube.com/embed/gwoWrNbxsd4"
+                            <iframe className="header-general-video" width="500" height="315"
+                                    src="https://www.youtube.com/embed/gwoWrNbxsd4"
                                     title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen/>
@@ -52,7 +53,7 @@ const Header = () => {
                                     <p className="header-general-how3">{el.item7}</p>
                                 </div>
 
-
+                                {/*Чем отличается интернет маркетинг от Смм?*/}
                             </div>
                         )
                     })
