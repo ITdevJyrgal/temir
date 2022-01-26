@@ -53,7 +53,6 @@ const Header = () => {
                                     <p className="header-general-how3">{el.item7}</p>
                                 </div>
 
-                                {/*Чем отличается интернет маркетинг от Смм?*/}
                             </div>
                         )
                     })
